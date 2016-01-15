@@ -1,3 +1,8 @@
+// todo: regex tester
+// todo: regex field sync with regex tester
+// todo: instruct user to provide link to firebase on first run
+// todo: polish appearance (jquery ui?)
+
 window.$ = window.jQuery = require('./bower_components/jquery/dist/jquery.min');
 require("./bower_components/firebase/firebase")
 const clipboard = require('electron').clipboard;
