@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RegexClip</title>
+    <style>
+        td, th {
+            min-width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <table id="regex-table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Search</th>
+            <th>Replace</th>
+            <th>Active?</th>
+        </tr>
+        <tr id="add-row">
+            <td>
+                <input type="text" placeholder="Unique ID" id="id-field">
+            </td>
+            <td>
+                <input type="text" placeholder="Search" id="search-field">
+            </td>
+            <td>
+                <input type="text" placeholder="Replace" id="replace-field">
+                <button id="regex-submit">Add rule</button>
+            </td>
+            <td></td>
+        </tr>
+        </thead>
+        <tbody id="regex-table-body">
+
+        </tbody>
+    </table>
+</div>
+
+<div id="input">
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
